@@ -62,6 +62,45 @@ nav ul li a:focus::before {
   transform: scaleX(1);
 }
 
+.sub-menu {
+  display: none;
+}
+
+nav ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background: #fff;
+  margin-top: -3px;
+  margin-left: -15px;
+  padding: -10px;
+}
+
+nav ul li:hover .sub-menu ul {
+  display: block;
+  margin: 0 -30px -8px -20px;
+}
+
+nav ul li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+nav ul li:hover .sub-menu ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li:hover .sub-menu ul li a:hover {
+  color: #019308;
+}
+
+nav ul li:hover .sub-menu ul li a::before {
+  bottom: 0;
+  height: 0;
+}
+
 .login {
   margin: 5px 8px;
   padding: 6px 25px;
