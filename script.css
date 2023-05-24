@@ -148,6 +148,47 @@ span {
   /* z-index: 999; */
 }
 
+#registrarSect {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  grid-gap: 65px;
+}
+
+.grid-item-text {
+  grid-column: span 2;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.grid-item-picx {
+  grid-column: span 1;
+  /* float: right; */
+  right: 0;
+}
+
+.readMore {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 7px;
+  border: 3px solid #045a08;
+  background-color: #fff;
+  color: #019308;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.readMore:hover {
+  color: #fff;
+  background-color: #045a08;
+  cursor: pointer;
+}
+
+.registrar {
+  border-radius: 35px;
+  padding-right: 0;
+}
+
 .ql {
   text-align: center;
   font-size: 30px;
@@ -181,7 +222,7 @@ span {
   box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-img {
+.card img {
   padding: 10px;
   border-radius: 5px 5px 0 0;
 }
