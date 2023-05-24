@@ -163,7 +163,6 @@ span {
 
 .grid-item-picx {
   grid-column: span 1;
-  /* float: right; */
   right: 0;
 }
 
