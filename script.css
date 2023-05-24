@@ -159,11 +159,13 @@ span {
   grid-column: span 2;
   font-size: 20px;
   line-height: 2rem;
+  text-align: justify;
 }
 
 .grid-item-picx {
   grid-column: span 1;
   right: 0;
+  padding: 20px 0;
 }
 
 .readMore {
