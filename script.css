@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 40px 120px;
+  margin: 40px 120px 0;
 }
 
 nav {
@@ -162,7 +162,7 @@ span {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 25px;
-  /* margin-left: -95px; */
+  margin: 40px;
 }
 
 .card {
@@ -215,6 +215,121 @@ img {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+.fa-envelope {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px;
+}
+
+#footer {
+  background-color: #019308;
+  width: 100%;
+}
+
+#footer .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#footer .grid-container .grid-item-1,
+#footer .grid-container .grid-item-2 {
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+#bottomGrid {
+  padding-top: 30px;
+  padding-bottom: -10px;
+}
+
+.subscribe {
+  color: #fff;
+  font-size: 20px;
+  /* top: 50%; */
+}
+
+input {
+  padding: 15px;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.submit {
+  border-radius: 5px;
+  margin: -140px;
+  padding: 13px;
+  border: none;
+  cursor: pointer;
+  background-color: #019308;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.submit:hover {
+  background-color: #045a08;
+}
+
+.rule {
+  width: 95%;
+  color: #fff;
+  margin-left: 2.5%;
+}
+
+#followContact {
+  margin-top: 10px;
+}
+
+.follow,
+.contactUs {
+  margin: 15px;
+  margin-left: 40px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.sm-icons {
+  margin-left: 40px;
+  margin-top: -15px;
+  font-size: 25px;
+  /* text-decoration: none; */
+  color: #fff;
+}
+
+.contactUs {
+  float: right;
+  text-align: right;
+}
+
+.contacts {
+  font-size: 12px;
+  margin: 10px 0;
+  font-weight: 100;
+}
+
+u {
+  cursor: pointer;
+}
+
+.footnote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0;
+  font-size: 10px;
+  padding: 15px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 500px) {
