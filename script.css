@@ -440,8 +440,15 @@ u {
   color: rgb(255, 255, 255);
 }
 
-nav .fa-xmark,
+nav .fa-xmark {
+  display: none;
+}
+
 .fa-bars {
+  display: none;
+}
+
+.mobileLogo {
   display: none;
 }
 
@@ -579,5 +586,9 @@ nav .fa-xmark,
     margin-top: -8px;
     font-size: 35px;
     text-align: center;
+  }
+
+  #ql-section {
+    margin-left: 20%;
   }
 }
