@@ -135,17 +135,74 @@ nav ul li:hover .sub-menu ul li a::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: rgba(1, 147, 8, 0.9); */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
+  top: 30%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 30px;
+  letter-spacing: 1px;
   color: white;
+  margin-left: 8%;
+  line-height: 2.5rem;
+  padding: 28px 28px 28px 50px;
+  background: rgba(39, 39, 39, 0.3);
+  backdrop-filter: blur(60px);
+  width: 50%;
+  border-radius: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+}
+
+.jamb {
+  font-weight: 600;
+  color: #10ea1b;
+  font-size: 40px;
+  line-height: 3rem;
+}
+
+.jambtext {
+  width: 90%;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 1.2rem;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.reg,
+.result {
+  margin: 15px 8px 0 0;
+  padding: 9px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.reg {
+  background-color: #019308;
+  color: #fff;
+}
+
+.reg:hover {
+  background-color: #10ea1b;
+  cursor: pointer;
+}
+
+.result {
+  /* border: 2px solid #019308; */
+  color: #0bc515;
+  font-weight: 500;
+}
+
+.result:hover {
+  background-color: #10ea1b;
+  color: #fff;
+  cursor: pointer;
 }
 
 span {
