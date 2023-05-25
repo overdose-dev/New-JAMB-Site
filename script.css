@@ -411,7 +411,6 @@ input {
   margin-left: 40px;
   margin-top: -15px;
   font-size: 25px;
-  /* text-decoration: none; */
   color: #fff;
 }
 
@@ -529,5 +528,56 @@ nav .fa-xmark,
     margin: 10px 20px;
     font-size: 25px;
     cursor: pointer;
+  }
+
+  #registrarSect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    grid-gap: 65px;
+  }
+
+  .grid-item-text {
+    grid-column: span 2;
+    font-size: 18px;
+    line-height: 1.8rem;
+    margin-top: 410px;
+    margin-right: 28px;
+    margin-left: 28px;
+  }
+
+  .grid-item-picx {
+    grid-column: span 2;
+    margin-top: -1160px;
+    width: 70%;
+    margin-left: 80px;
+  }
+
+  .readMore {
+    margin: 10px 34%;
+    width: 30%;
+  }
+
+  #footer .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contactUs {
+    float: none;
+    text-align: center;
+    display: block;
+  }
+
+  .follow {
+    float: none;
+    text-align: center;
+    display: block;
+  }
+
+  .sm-icons {
+    margin-left: 40px;
+    margin-top: -8px;
+    font-size: 35px;
+    text-align: center;
   }
 }
