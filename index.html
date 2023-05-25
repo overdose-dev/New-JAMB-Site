@@ -21,10 +21,11 @@
   <body>
     <!-- Navigation Menu -->
     <section>
-      <nav>
+      <nav id="navLinks">
         <a href="index.html">
           <img src="images/jamb logo2.jpg" alt="" width="5%" height="5%" />
         </a>
+        <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
         <ul>
           <li>
             <a href="#">Home</a>
@@ -88,10 +89,10 @@
           <button class="login">Login</button>
         </ul>
       </nav>
+      <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
     </section>
     <!-- Main Page -->
     <section id="main-sec">
-      <!-- <img src="images/computer.jpg" alt="" /> -->
       <div class="overlay">
         <div class="text">
           Welcome To The Official Site of the
@@ -268,5 +269,15 @@
 
       <div class="footnote">JAMB 2023 &copy; All Rights Reserved</div>
     </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.left = "30dvw";
+      }
+      function hideMenu() {
+        navLinks.style.left = "-300dvw";
+      }
+    </script>
   </body>
 </html>
